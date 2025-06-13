@@ -78,5 +78,25 @@ function div(num1,num2) {
 div(2,4) 
 
 
+// 13/06/2025
+
+/*let fname = "Prathima"
+let age = 19
+function sayName(){
+    console.log("My name is " + fname + " and age is " + age)
+}
+sayName()*/
+
+
+//we can use other string methods too for ex:
+
+let fname = "Prathima"
+let age = 19
+function sayName(){
+    console.log("My name is " + fname + " and age is " + age) //Double Quotation
+    console.log('My name is ' + fname + ' and age is ' + age)//Single Quotation
+    console.log(`My name is ${fname} and age is ${age}`)//Template literal(Introduced in es6 after 2015)
+}
+sayName()
 
 
